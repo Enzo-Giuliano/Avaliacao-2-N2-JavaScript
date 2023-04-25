@@ -9,10 +9,12 @@ function Livro(nome, autor, ano) {
     };
 }
 
-//Objeto (Livro)
+//Objetos (Livro)
 
 let livro1 = new Livro("Clara dos Anjos", "Lima Barreto", 1948);
+let livro2 = new Livro("Memórias Póstumas de Brás Cubas", "Machado de Assis", 1881);
 
 //Método Informações
 
 livro1.informacoes();
+livro2.informacoes();
